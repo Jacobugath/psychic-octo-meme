@@ -3,14 +3,14 @@ import { Link } from "gatsby"
 import './index.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import piano from '../images/piano.png'
+import keyboard from '../images/keyboard.jpg'
 import hamburger from '../images/hamburger.png'
 
 
-const IndexPage = () => {
+const ppPage = () => {
   const [click, setclick] = React.useState(false);
   return(
-  <Layout>
+    <Layout>
     <div className="container">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
           <div className="hamburger"><img src={hamburger}  onClick= {() =>{
@@ -32,21 +32,25 @@ const IndexPage = () => {
 
           <span className = 'links'>
 
-          <span className = 'active'><Link to="/"><u>HOME</u></Link>{' '}</span>
+          <span className = 'active'><Link to="/">HOME</Link>{' '}</span>
           <Link to="/about">ABOUT</Link>
           <Link to='/pp'> {'  '}PRICES<span id='regspace1'>{' '}AND{' '}</span>POLICIES</Link>
-
-          <Link to= '/contact'>{'  '}CONTACT<span id = 'regspace2'>{' '}</span>ME</Link>
+          <Link to= '/contact'>{'  '}<u>CONTACT<span id = 'regspace2'>{' '}</span>ME</u></Link>
           </span>
-          <div className="piano">
-            <img src={piano} id='piano' alt="image of piano"/>
 
+          <div className="kak"></div>
+          <div className="blue">
 
+            EMAIL <br/>
+            <input type='text'></input>
+            <br/>
+            <br/>
+            MESSAGE<br/>
+            <textarea></textarea>
+            <br/><br></br>
+            <button id='ka'>Send Message</button>
           </div>
 
-          <div className="headline">Weekly Private Lessons for all Ages<br/></div>
-          <div className="but">
-          <button>contact me  </button></div>
           <div className="logo">
           <div className="reb">Rebecca Alexander<br/><hr/></div>
           <div className="pi">Piano Studio</div>
@@ -56,7 +60,6 @@ const IndexPage = () => {
 
     </div> {/*.container*/}
     </Layout>
-  )
-}
-
-export default IndexPage
+)
+  }
+export default ppPage
