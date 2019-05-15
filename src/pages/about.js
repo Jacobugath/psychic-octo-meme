@@ -42,20 +42,20 @@ const AboutPage = () => {
           <img id='reb' src={reb}></img>
           </div>
           <div className="heading">
-          <h1>About Me</h1>
+          <h1>About Me</h1></div>
           <div className="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.<br></br><br></br>
 
           Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></br><br></br>
 
 
-          </div>
+
           </div>
 
 
 
           <div className="logo">
-          <div className="reb">Rebecca Alexander<br/><hr/></div>
+          <div className="rev">Rebecca Alexander<br/><hr/></div>
           <div className="pi">Piano Studio</div>
           </div>
 

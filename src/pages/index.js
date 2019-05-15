@@ -44,11 +44,11 @@ const IndexPage = () => {
 
           </div>
 
-          <div className="headline">Weekly Private Lessons for all Ages<br/></div>
+          <div className="headline">Weekly Private Lessons for all Ages.<br/></div>
           <div className="but">
           <button>contact me  </button></div>
           <div className="logo">
-          <div className="reb">Rebecca Alexander<br/><hr/></div>
+          <div className="rev">Rebecca Alexander<br/><hr/></div>
           <div className="pi">Piano Studio</div>
           </div>
 

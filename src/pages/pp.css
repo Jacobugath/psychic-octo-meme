@@ -50,8 +50,6 @@ body{
 #piano{
 
     width: 27vw;
-
-    top: 8vw;
     border: 5px solid #292F36;
     background-image: url('../images/kakmusic.png');
     background-size: 450px;
@@ -62,14 +60,15 @@ body{
 }
 .headline{
     grid-column: 7/10;
-    grid-row: 4/7;
-    font-size: 4vw;
+    grid-row: 3/7;
+    font-size: 46px;
     color: #292F36;
     font-family: 'Jura', sans-serif;
-    width: 60vw;
+    width: 50vw;
     line-height: 4vw;
     position: relative;
     right: 20vw;
+    top: 10px
 
 
 }
@@ -85,7 +84,7 @@ hr{
 }
 button{
     width: 20vw;
-    font-size: 4.5vw;
+
     font-family: 'Great Vibes', cursive;
     color:#292F36;
     background-color: #4281A4;
@@ -94,20 +93,30 @@ button{
     border: 2px solid #292F36;
     text-shadow: 1px 1px #E7E4D7;
     font-weight: bold;
-    line-height: 9vh;
+    line-height: 50px;
     position: relative;
     top: -1em;
     right: 10vw;
 
+        width: 15vw;
+        font-size: 30px;
+        border: solid 2px #292F36;
+
+
+        font-size: 50px !important;
+
+
 }
 .but{
     grid-column: 7/10;
-    grid-row: 7/10;
+    grid-row: 5/10;
+    position: relative;
+    top: 20px;
 
 }
-.reb{
+.rev{
     font-family: 'Great Vibes', cursive;
-    font-size: 5vw;
+    font-size: 60px;
     text-align: center;
 
 
@@ -115,29 +124,35 @@ button{
 }
 .pi{
     font-family: 'Jura', sans-serif;
-    line-height: 2vw;
-    font-size:4vw;
+    line-height:  40px;
+    font-size:46px;
     text-align: center;
+    position: relative;
+        left: 20px
 }
 .logo{
     grid-column: 1/5;
     grid-row: 1/3;
     position: fixed;
     top:0;
-    right: 48em;
+    right: 67%;
 
 }
 .reb{
-    grid-column:1/10;
-    grid-row: 1/10;
+    grid-column:2/5;
+    grid-row: 3/5;
 }
 #reb{
-    width: 28vw;
-    position: relative;
-    right: 27vw;
-    top: 10vw;
-    border: 5px solid #292F36;
-    box-shadow: 5px 5px 20px #F3F1EB;
+
+          position: relative;
+          top: 20px;
+          right: 6vw;
+          width: 27vw;
+        border: 5px solid #292F36;
+        background-size: 450px;
+        Height: 525px;
+        object-fit: cover;
+        background-color: #C9C69D;
 
 
 
@@ -153,19 +168,25 @@ h1{
 }
 .heading{
     grid-row: 2;
-    grid-column: 7/10;
+    grid-column: 1/10;
+    text-align: center;
+    position: relative;
+    left: 12vw;
 
 }
 .text{
-    font-size: 1.8VW;
+    grid-column: 7/10;
+    grid-row: 3/7;
+    font-size: 20px;
     color: #292F36;
-    width: 60vw;
-
-    grid-row: 3;
-    grid-column: 5/10;
+    font-family: 'Jura', sans-serif;
+    width: 50vw;
+    line-height: 4vw;
     position: relative;
-    right: 22vw;
-    bottom: 2vw;
+    right: 20vw;
+    top: 5px;
+
+
 
 }
 a{
@@ -177,27 +198,31 @@ a{
     grid-column: 1/10;
     text-align: center;
     position: relative;
-    left: 12vw;
+    left: 18vw;
 }
 h2{
     font-size: 2vw;
     font-family: 'Jura', sans-serif;
-    color: #4281A4;
-    text-shadow: 2px 2px #292F36;
+    color: #292F36;
+    text-shadow: none;
+    margin-bottom: 0;
+    text-decoration: underline;
 }
 .generalinfo{
-    grid-row: 4;
-    grid-column: 4/10;
-    width: 60vw;
+    grid-column: 7/10;
+    grid-row: 3/7;
+    font-size: 20px;
+    color: #292F36;
+    font-family: 'Jura', sans-serif;
+    width: 50vw;
+    line-height: 4vw;
     position: relative;
-    left: 6em;
-
+    right: 20vw;
+    bottom: 20px;
 }
 .generalinfot{
-    grid-row: 5;
-    grid-column: 5/10;
-    position: relative;
-    top: 20px;
+
+
 }
 .atlessons{
     grid-row: 6;
@@ -211,19 +236,23 @@ h2{
     position: relative;
     bottom: 1.5vw;
 }
+
+
 .keyboard{
-    grid-row: 4;
-    grid-column: 1/4;
-    position: relative;
-
-
+    grid-column:2/5;
+    grid-row: 3/5;
 }
 #keyboard{
-    width: 27vw;
-    position: fixed;
-    height: 525px;
-    top: 7em;
-    left: 2em;
+background-color: #C9C69D;
+width: 27vw;
+border: 5px solid #292F36;
+background-size: 450px;
+Height: 525px;
+object-fit: cover;
+position: relative;
+top: 20px;
+right: 8vw;
+
 
 
 }
@@ -366,3 +395,38 @@ h2{
     position: relative;
     top: 1vw;
 }
+
+@media only screen and (max-width: 1199px){
+    .rev{
+        font-size: 30px !important;
+        position: relative;
+        right: 125px;
+    }
+    .pi{
+      font-size: 25px !important;
+      position: relative !important;
+      left: -125px;
+    }
+    hr{
+        display: none
+    }
+    button{
+      line-height: 50px !important ;
+    }
+
+}
+@media only screen and (max-width: 959px){
+    h2{
+        text-shadow: none !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    h2{
+        text-shadow: none !important;
+    }
+}
+
+/* @media all and (min-width: 768px) and (max-width: 959px) { ... }
+@media all and (min-width: 480px) and (max-width: 767px){ ... }
+@media all and (max-width: 599px) { ... }
+@media all and (max-width: 479px) { ... }  */

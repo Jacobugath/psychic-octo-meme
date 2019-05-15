@@ -46,7 +46,7 @@
 
         width: 27vw;
 
-        top: 8vw;
+        top: 80px;
         border: 5px solid #292F36;
         background-image: url('../images/kakmusic.png');
         background-size: 450px;
@@ -60,7 +60,7 @@
         color: #292F36;
         font-family: 'Jura', sans-serif;
         width: 60vw;
-        line-height: 4vw;
+        line-height: 80px;
         position: relative;
         right: 11vw;
 
@@ -87,7 +87,7 @@
         border: 2px solid #292F36;
         text-shadow: 1px 1px #E7E4D7;
         font-weight: bold;
-        line-height: 9vh;
+        line-height: 10px;
         background: linear-gradient(#BAD1DD, #4281A4);
 
     }
@@ -98,18 +98,14 @@
         top: .01em;
         right: 11vw;
     }
-    .reb{
-        font-family: 'Great Vibes', cursive;
-        font-size: 5vw;
-        text-align: center;
 
-
-    }
     .pi{
         font-family: 'Jura', sans-serif;
-        line-height: 2vw;
-        font-size:4vw;
+        line-height: 20px;
+        font-size:20px;
         text-align: center;
+        position: relative;
+        right: 200px
     }
     .logo{
         grid-column: 1/5;
@@ -117,21 +113,26 @@
         position: relative;
         right: 2vw;
     }
-    .reb{
+    .rev{
         grid-column:1/10;
         grid-row: 1/10;
     }
-    #reb{
-        width: 28vw;
+    .keyboard{
+        grid-row: 4;
+        grid-column: 1/4;
         position: relative;
-        right: 27vw;
-        top: 10vw;
-        border: 5px solid #292F36;
-        box-shadow: 5px 5px 20px #F3F1EB;
-
-
-
+        left: 3vw;
+        width: 10px;
     }
+    #reb{
+        border: solid 5px #292F36;
+        width: 10px;
+        grid-row: 10;
+        grid-column:5/10;
+        position: relative;
+        top: 2vw;
+    }
+
     h1{
         font-size: 4.5vw;
         font-family: 'Great Vibes', cursive;
@@ -139,6 +140,7 @@
         text-shadow: 2px 2px #292F36;
         position: relative;
         right: 3vw;
+        bottom: 30px;
 
     }
     .heading{
@@ -155,7 +157,7 @@
         grid-column: 5/10;
         position: relative;
         right: 22vw;
-        bottom: 2vw;
+        bottom: 4px;
 
     }
     a{
@@ -267,56 +269,97 @@
           display:none;
         }
       }
-      @media only screen and (max-width: 1219px) {
-        .but{
-            top: -150px;
-        }
-      }
+
+
 
       .kak{
+
           background-color: #C9C69D;
-            grid-row: 3/5;
-            grid-column: 2/6;
-            height: 525px;
-            position: relative;
-            right: 4em;
-            width: 27vw;
-            border: solid 5px #292F36;
+          grid-column:2/5;
+          grid-row: 3/5;
+          position: relative;
+          top: 20px;
+          right: 6vw;
+          width: 27vw;
+        border: 5px solid #292F36;
+        background-size: 450px;
+        Height: 525px;
+        object-fit: contain;
+
+
       }
       .blue{
         background-image: url('../images/blue.png');
-        background-size: contain;
-        grid-column:5/10;
-        grid-row: 3/5;
-        height: 453px;
-        width: 43vw;
-        color: #E7E4D7;
-
-        border: solid 2px #292F36;
-        padding: 10% 15% 0% 15%;
+        background-size: 500px;
+        grid-column: 7/10;
+        grid-row: 3/7;
+        font-size: 20px;
+        color: #C9C69D;
+        font-family: 'Jura', sans-serif;
+        width: 30vw;
+        line-height: 4vw;
         position: relative;
-        right: 1vw;
+        right: 20vw;
+        Height: 525px;
+        padding: 0% 10vw 0% 10vw;
+        text-shadow: 1px 1px #292F36;
+        position: relative;
+        top: 19px;
+        border: 5px #292F36 solid
+
       }
       input{
-        background-color: #C4C194;
+        background-color:  #E7E4D7;
         border: solid 1px #292F36;
-        width: 650px;
+        width: 30vw;
         height: 40px;
       }
       textarea{
-        background-color:#C4C194;
+        background-color: #E7E4D7;
         border: solid 1px #292F36;
         width: 650px;
         height: 150px;
+        width: 30vw;
       }
       #ka{
         background-color: #C4C194;
-        width: 650px;
+
         font-size: 3vw;
-        position: relative;
-        top: 20px;
-        left: .25vw;
         border: solid 2px #292F36;
         text-shadow: 1px 1px #4281A4;
         background: linear-gradient(#E7E4D7, #C4C194);
+        font-size: 25px  !important;
+        position: relative;
+        bottom: 500px;
+        left: .1vw;
+        width: 30vw;
+
+
       }
+
+      @media only screen and (max-width: 1199px){
+          .rev{
+              font-size: 30px !important;
+              position: relative;
+              right: 125px;
+          }
+          .pi{
+            font-size: 25px !important;
+            position: relative !important;
+            left: -100px;
+          }
+          hr{
+              display: none
+          }
+          button{
+            line-height: 50px !important ;
+          }
+      }
+      .headings{
+        grid-row: 2;
+        grid-column: 1/10;
+        text-align: center;
+        position: relative;
+        left: 14vw;
+
+    }
